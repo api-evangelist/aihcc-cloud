@@ -1,4 +1,4 @@
-# aihcc-cloud
+# AIHCC
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-aihcc-cloud is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://aihcc.cloud/
+AIHCC, operated by Shenzhen LianShi Technology Co., Ltd., provides AI safety infrastructure for agents, offering hallucination detection, prompt injection protection, and full‑chain audit tools. Their platform includes products like HallucC Verify, Duet proactive agents, and CUA risk detection, serving developers, enterprises, and content creators with free and paid tiers. The service emphasizes reliable AI output verification, multi‑model cross‑validation, and compliance auditing, with detailed pricing, documentation, and support resources available on their website.
+
+**Areas:** AI Safety · Agent Tools · Hallucination Detection · Prompt Injection · Chinese
+
+## AIHCC on APIs.io
+
+Everything profiled for AIHCC is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aihcc-cloud/](https://apis.io/providers/aihcc-cloud/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [AIHCC API](https://apis.io/apis/aihcc-cloud/aihcc-api/) — API documentation available at https://aihcc.cloud/docs
+- [AIHCC API](https://apis.io/apis/aihcc-cloud/aihcc-cloud-api/) — AIHCC API as documented publicly: 33 operations. Contract generated from the documentation by API Evangelist (2026-11-01); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [PostApiDetectRequest](https://apis.io/schemas/aihcc-cloud/aihcc-cloud-post-api-detect-request/)
+- [PostApiDetectResponse](https://apis.io/schemas/aihcc-cloud/aihcc-cloud-post-api-detect-response/)
+- [PostBatchRequest](https://apis.io/schemas/aihcc-cloud/aihcc-cloud-post-batch-request/)
+- [PostCuaAuditCodeRequest](https://apis.io/schemas/aihcc-cloud/aihcc-cloud-post-cua-audit-code-request/)
+- [PostDetectAgentRequest](https://apis.io/schemas/aihcc-cloud/aihcc-cloud-post-detect-agent-request/)
+- [PostDetectResponse](https://apis.io/schemas/aihcc-cloud/aihcc-cloud-post-detect-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Aihcc Cloud Context](https://apis.io/jsonld/aihcc-cloud/aihcc-cloud-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AIHCC API Rules](https://apis.io/rules/aihcc-cloud/aihcc-cloud-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Aihcc Cloud Domain Security](https://apis.io/security/aihcc-cloud/aihcc-cloud-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Aihcc Cloud Plans Pricing](https://apis.io/plans/aihcc-cloud/aihcc-cloud-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://aihcc.cloud/)
+- [Documentation](https://aihcc.cloud/docs)
+- [Pricing](https://aihcc.cloud/pricing)
+- [Changelog](https://aihcc.cloud/changelog)
+- [Terms of service](https://aihcc.cloud/terms)
+- [Privacy policy](https://aihcc.cloud/privacy)
+
+## API Evangelist rating
+
+Not yet rated. See [apis.io/providers/aihcc-cloud/](https://apis.io/providers/aihcc-cloud/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AIHCC: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aihcc-cloud/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
