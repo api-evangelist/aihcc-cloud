@@ -81,6 +81,12 @@ Everything profiled for AIHCC is published on APIs.io rather than in this reposi
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [aihcc-cloud-mcp.yml](https://apis.io/servers/aihcc-cloud/aihcc-cloud-mcp-yml/)
+
 #### JSON Schema (6)
 
 The data models the API reads and writes.
@@ -108,13 +114,13 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Aihcc Cloud Domain Security](https://apis.io/security/aihcc-cloud/aihcc-cloud-domain-security/)
+- [AIHCC Domain Security](https://apis.io/security/aihcc-cloud/aihcc-cloud-domain-security/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Aihcc Cloud Plans Pricing](https://apis.io/plans/aihcc-cloud/aihcc-cloud-plans-pricing/)
+- [AIHCC Plans Pricing](https://apis.io/plans/aihcc-cloud/aihcc-cloud-plans-pricing/)
 
 ## Where to find this API
 
@@ -129,7 +135,50 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/aihcc-cloud/](https://apis.io/providers/aihcc-cloud/).
+**Kin Score 33.8** — thin · rubric 0.28.1 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 61.7 |
+| Contract quality | 25.2 |
+| Contract governance | 22.0 |
+| Operational transparency | 14.3 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 76.6 |
+
+**Agent readiness 18.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
+
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aihcc-cloud/](https://apis.io/providers/aihcc-cloud/).
 
 ## How this profile is made
 
